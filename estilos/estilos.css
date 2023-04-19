@@ -1,0 +1,46 @@
+section{
+    display: flex;
+    width: 800px;
+    height: 530px;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: #FFD700;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+h2{
+    color: #FFD700;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+div{
+    margin: auto;
+  width: 800px;
+  height: 530px;
+  border: 3px solid #FFD700;
+  padding: 10px;align-items: center;
+  margin-top: 5%;
+}
+
